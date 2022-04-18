@@ -20,9 +20,9 @@ import java.util.UUID;
 @RestController
 public class WxLoginController {
 
-    private String appId = "wxf86ae4e877e23a0d";
-    private String appSecret = "bb5d72ec2bc2935ff38471570b1f47b3";
-    private String redirectUri = "http://wxlogin2.sh1.k9s.run:2271/api/ucenter/wx/callback";
+    private String appId = "appId";
+    private String appSecret = "appSecret";
+    private String redirectUri = "redirectUri";
 
     @Autowired
     private RedisUtil redisUtil;
